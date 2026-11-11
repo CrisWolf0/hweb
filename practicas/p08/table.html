@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4-Prueba de habilidades</title>
+    <style type="text/css">
+    td, th { border: 1px solid #CCC; }
+    table {border: 1px solid black; }
+</style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th rowspan="2"></th>
+            <th colspan="2"><strong>A common header for two subheads</strong></th>
+            <th rowspan="2"><strong>Header 3</strong></th>
+        </tr>
+        <tr>
+            <th><strong>Header 1</strong></th>
+            <th><strong>Header 2</strong></th>
+        </tr> 
+        <!--Scope se refiere que el encabezado corresponde a una columna o fila y row indica que abarca la fila-->
+        <tr>
+            <th scope="row"><strong>Thing A</strong></th>
+            <td>data A1</td>
+            <td>data A2</td>
+            <td>data A3</td>
+        </tr>
+        <tr>
+            <th scope="row"><strong>Thing B</strong></th>
+            <td>data B1</td>
+            <td>data B2</td>
+            <td>data B3</td>
+        </tr>
+        <tr>
+            <th scope="row"><strong>Thing C</strong></th>
+            <td>data C1</td>
+            <td>data C2</td>
+            <td>data C3</td>
+        </tr>
+    </table>
+</body>
+</html>
